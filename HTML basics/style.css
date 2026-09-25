@@ -1,0 +1,92 @@
+/* Inline Styling - using style directly with attribute */
+/* Internal Styling - Using style attribute in head to change the style of an attribute */
+/* External Styling - Styling from a separate CSS file */
+
+/* ID Selector - We can style specific thing using called id selector (id = "id" in HTMl) and using them in CSS file by (#id {...}) */
+/* Class Selector - We also have class selector (class = "className" in HTML) and using it in CSS by (.className {...}) */
+/* Element Selector - We can also style using attributes directly i.e. by doing - attribut {...} e.g.- p {...} */
+/* List -- We have 2 types of list are: orderedList(<ol>) and unorderedList(<ul>) and we can put elements in list by using <li> tag. */
+/* Group Selector - we can use it using directly elements separated by ',' e.g.- p,h1,h2 {...} */
+/* Universal Selector - Using it applies Style to whole project (* {...}). */
+
+
+* {
+    background-color: rgb(224, 253, 237);
+    color: rgb(0, 179, 255);
+    font-family: Helvetica;
+    font-size: medium;
+}
+
+#mainHeading {
+    color: black;
+}
+
+p {
+
+    font-size: smaller;
+    color: bisque;
+    background-color: darkblue;
+    padding: 16px;
+    font-family: monospace;
+}
+
+.foods {
+    border: 2px color black;
+    font-size: medium;
+}
+
+.act {
+    background-color: orange;
+    color: brown;
+    border: 2px color black;
+    font-size: medium;
+}
+
+/* CSS Background */
+/* 
+body {
+    background-image: url("imageName.extension");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+
+    background: url("imageName.extension") no-repeat right top scroll
+}
+    */
+
+/*
+div {
+    width: 200px;
+    height: 200px;
+    /* background-color; yellow */
+
+/* background-image; url("rose.png"); */
+border: 2px solid yellow;
+background-image: url("imageName.extension");
+background-repeat: no-repeat;
+background-size: contian;
+}
+
+*/
+/* contain vs cover */
+
+
+
+
+.card {
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+width : 600px; 
+height: 300px;
+border: 2px solid black;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly; 
+flex-wrap: wrap;
+align-items: center;
+}

@@ -1,0 +1,46 @@
+.card {
+    width: 300px;
+    height: 550px;
+    border: 2px solid black;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+}
+
+.container {
+    background-color: #ffffcc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 16px
+}
+
+.navbar {
+    height: 70px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    position: sticky;
+}
+
+.logo {
+    color: #ffffcc;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.nav-link {
+    
+}
+
+.buyButton {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    align-items: center;
+}
