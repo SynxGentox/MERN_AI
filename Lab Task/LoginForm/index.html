@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    
+</head>
+
+<body>
+    <div id="loginCard">
+        <div id="imageBanner">
+            <img src="shoe.jpeg" alt="Unknown.jpeg">
+        </div>
+
+        <div class="detailBanner">
+            <div id="contentHolder">
+                <h1 id="welcome">Welcome Back!</h1>
+                <h4 id="welcomeMsg">Login to your account to continue learning and growing.</h4>
+
+                <form id="detailForm">
+                    <div class="inputField">
+                        <div>
+                            <i id="envelope" class="fa-solid fa-envelope"></i>
+                            <input class="inputBox" type="email" placeholder="Email Address">
+                            <br>
+                            <i id="key" class="fa-solid fa-key"></i>
+                            <input class="inputBox" type="password" placeholder="Password">
+                        </div>
+
+                        <div class = "rememberBox">
+                            <div class = "box">
+                            <input type="checkbox" name="remember" id="box">
+                            <label class = "boxLable" for="box"> Remember Box</label>
+                            </div>
+                            <a  class = "forgot" id="fogotLink" href="random Link">Forgot Password?</a>
+                        </div>
+                    </div>
+
+                    <button class="loginButton" type="submit"> Login </button>
+
+                    <div id = "help">
+                    <h4 id="helpText"> Don't have an account? <a id="forgotLink" href="random link">Sign Up</a></h4>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

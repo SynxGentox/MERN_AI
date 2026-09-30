@@ -1,0 +1,140 @@
+#loginCard {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 196, 255);
+    padding: 0px;
+    width: max-content;
+    height: 500px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.225); 
+    border-radius: 16px;
+    overflow: hidden; 
+}
+
+#imageBanner {
+    display: flex;
+    justify-content: left;
+    
+}
+
+.detailBanner {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contentHolder {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 40px;
+}
+
+* {
+    font-family: Arial;
+    text-decoration: none;
+}
+
+#welcome {
+    font-weight: 550;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+#welcomeMsg {
+    padding: 0;
+    margin: 0px;
+    font-size: small;
+    color: rgb(194, 194, 194);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+#envelope {
+    position: absolute;
+    color: #888;
+    z-index: 2;
+    top: 25px;
+    left: 16px;
+}
+
+#key {
+    position: absolute;
+    color: #888;
+    z-index: 2;
+    top: 80px;
+    left: 16px;
+}
+.inputBox {
+    position: relative;
+    padding: 15px 0px;
+    width: 99%;
+    margin-top: 10px;
+    height: max-content;
+    padding-inline-start: 45px;
+}
+
+.inputField {
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.rememberBox {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5px;
+    align-items: center;
+    font-size: small;
+}
+
+.boxLable {
+    padding: 0px;
+    margin: 0px;
+    font-size: small;
+}
+
+.loginButton {
+    width: 100%;
+    color: white;
+    border: 0px;
+    padding: 12px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(115, 40, 185);
+}
+
+#help {
+    margin: 0px 20px;
+    display: flex;
+    padding: 0px;
+    justify-content: space-around;
+    align-items: center;
+    height: max-content;
+}
+
+#helpText {
+    padding: 20px;
+    margin: 0px;
+    font-size: small;
+    font-weight: 400;
+}
+
+body {
+    background-image: url("Unknown.jpeg");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}

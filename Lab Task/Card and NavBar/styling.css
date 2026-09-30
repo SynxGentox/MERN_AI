@@ -28,6 +28,16 @@
     position: sticky;
 }
 
+.controls {
+    color: white;
+    padding: 0px 8px;
+}
+
+.login {
+    padding: 16px 32px;
+    border-radius: 24px;
+}
+
 .logo {
     color: #ffffcc;
     font-size: 24px;
@@ -35,12 +45,57 @@
     font-family: 'Franklin Gothic Medium';
 }
 
-.nav-link {
-    
-}
-
 .buyButton {
     padding-bottom: 20px;
     padding-top: 10px;
     align-items: center;
+}
+
+.shoeCard {
+    border: 2px solid black;
+    border-radius: 24px;
+    background-color: rgb(86, 255, 204);
+    padding: 14px;
+    width: 300px;
+    position: relative;
+    height: min-content;
+}
+.shoeImage {
+    border-radius: 14px;
+    width: 100%;
+    position: relative;
+}
+
+.shoePrice {
+    color: rgb(178, 96, 255);
+}
+
+.shoeButton {
+    border-radius: 14px;
+    width: 100%;
+    padding: 14px 0;
+    transition: 0.15s ease-in-out;
+}
+.shoeButton:hover {
+    background-color: white; /* Darkens or changes color on hover */
+    transform: scale(1.03);  /* Makes the button 2% larger */
+}
+.badge {
+    position: absolute;
+    z-index: 2;
+    top: 24px;
+    left: 24px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.sale {
+    position: absolute;
+    z-index: 2;
+    top: 65%;  
+    left: 65%;
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%;
 }
