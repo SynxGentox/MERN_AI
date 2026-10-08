@@ -1,0 +1,44 @@
+body {
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.devCard {
+    background-color: pink;
+    width: 400px;
+    height: min-content;
+    padding: 20px;
+}
+
+.devCard img {
+    width: 400px;
+    height: 100%;
+}
+
+.devCard button:hover {
+    background-color: rgb(24, 255, 12);
+    border: 0px;
+    border-radius: 12px;
+}
+
+.devCard button {
+    background-color: white;
+    border: 0px;
+    border-radius: 12px;
+    padding: 12px;
+    width: 100%;
+
+}
+
+/* JS Output 
+    1. Aisha 
+    2. 25
+    3. Welcome Aisha
+    4. 30
+    5. Age: 30      // Here, Age is a string and age is an Int type variable compiler adds the age and 5 as Int and Age and Int result as String returning a String.
+    */
