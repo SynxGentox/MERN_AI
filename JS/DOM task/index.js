@@ -21,7 +21,6 @@ function studentCard() {
         button.textContent = "Button" + (i + 1);
 
         card.append(head, para, button);
-
         container.append(card);
     }
 }
@@ -52,12 +51,42 @@ function cardTheme() {
     });
 }
 
+function shoppingCart() {
+    const container = document.createElement("div");
+    
+    const cartHead = document.createElement("h2");
+    const itemHead = document.createElement("h4");
+    const itemPrice = document.createElement("p");
+    const itemButton = document.createElement("button");
+
+    cartHead.classList.add("cartHead");
+    itemHead.classList.add("itemHead");
+    itemPrice.classList.add("itemPrice");
+    itemButton.classList.add("itemButton");
+
+    (cartHead, itemHead).textContent = ("My Cart", "Laptop");
+
+}
 
 
 
+let num = 50;
+console.log(num);
 
 
+const numbers = [20, 35, 40, 35, 65, 28, 40];
+const seen = new Set();
+const dups = [];
 
+for (num of numbers) {
+    if (seen.has(num)) {
+        dups.push(num);
+    }
+    else {
+        seen.add(num);
+    }
+}
+console.log("These are dublicate values: " + dups);
 
 
 

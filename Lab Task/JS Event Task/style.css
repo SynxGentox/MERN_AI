@@ -1,0 +1,88 @@
+* {
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+    padding: 8px;
+}
+
+body {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+#description {
+    color: gray;
+}
+
+#themeButton {
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+    height: max-content;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+
+#themeButton:hover {
+    background-color: gray;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+
+    display: flex;
+    width: 400px;
+    height: max-content;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 24px;
+}
+
+.dark {
+    #card {
+        background-color: black;
+    }
+
+    #title {
+        color: white;
+    }
+
+    #themeButton {
+        background-color: white;
+        color: black;
+    }
+    #themeButton:hover {
+    background-color: gray;
+}
+}
+
+.light {
+    #card {
+        background-color: white;
+    }
+
+    #title {
+        color: black;
+    }
+
+    #themeButton {
+        background-color: black;
+        color: white;
+    }
+    #themeButton:hover {
+    background-color: gray;
+}
+}

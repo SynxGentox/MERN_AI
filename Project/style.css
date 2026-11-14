@@ -1,0 +1,111 @@
+body {
+    padding: 0px 24px;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: rgb(255, 255, 235);
+}
+
+* {
+    font-family: arial;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    font-weight: 500;
+}
+
+.navSection {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+
+    #TTsolid {
+        width: 50px;
+        height: 50px;
+    }
+
+    #TTlogo {
+        width: 63px;
+        height: 63px;
+        z-index: 2;
+        position: absolute;
+        left: 13px;
+        top: 12px;
+    }
+
+    #title {
+        padding-left: 40px;
+    }
+}
+
+
+.para {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 16px;
+
+    .testContainer {
+        height: 400px;
+        overflow: hidden;
+        #keyInput {
+            opacity: 0;
+            z-index: -99;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #testContent {
+            white-space: pre-wrap;
+            height: 550px;
+            font-size: 38px;
+            line-height: 1.3;
+            color: gray;
+            padding: 0 52px;
+        }
+
+        .char.correct {
+            color: #64748b;
+        }
+
+        .char.incorrect {
+            color: #ef4444;
+        }
+
+        .char.current {
+            color: black;
+            border-left: 1px solid black;
+            transition: 0.3s ease-in-out;
+        }
+
+        .hidden {
+            display: none;
+        }
+    }
+}
+
+
+.guide {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+    .guideDiv {
+        display: flex;
+        align-items: center;
+
+        #tabIcon {
+            width: 24px;
+            height: 24px;
+        }
+
+        #tabTitle {
+            padding-left: 16px;
+            margin: 0px;
+        }
+    }
+}
